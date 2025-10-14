@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1 {
+  color: var(--TITULO);
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "DM Serif Text", serif;;
+
+ }
+
+h2 {
+  color: var(--SUBTITULO);
+  font-family: "Funnel Sans", sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+* {
+  margin: 0%;
+}
+
+.arriba {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+    border-bottom: 3px solid var(--BORDES);
+    padding-bottom: .5em;
+
+  
+
+  z-index: 5;
+  position: relative;
+
+  background-color:#fff;
+}
+
+.titulo {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: .6em;
+  padding-left: 1em;
+}
+
+@keyframes brillo {
+  0%   {color: var(--TITULO) }
+  1%   {color: #ac5825}
+  20%   {color: var(--TITULO)}
+  100%   {color: var(--TITULO)}
+
+}
+
+h1:hover {
+  animation-name: brillo;
+  animation-duration: 4s;
+}
+
+
+/*esta es la barra de navegación.*/
+
+
+nav{
+
+  display: flexbox;
+  justify-content: end;
+  flex-direction: row;
+  padding: 5px;
+  flex-grow: 1;
+
+    font-size: .9em;
+      flex-wrap: wrap;
+
+  align-content: center;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  justify-content: flex-end;
+}
+
+ul > li { 
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.3%;
+
+  padding: 1em;
+
+    row-gap: 10px;
+
+}
+nav ul li {
+  flex: 1;
+  text-align: center;
+
+  font-family: "Funnel Sans", sans-serif;
+  justify-content: flex-start;
+
+
+}

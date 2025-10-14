@@ -1,0 +1,27 @@
+{
+    "destinos": [
+    {
+        "nombre":"Tadí del Valle",
+        "info": "hola",
+        "imgSrc": "hola"
+
+    },
+
+    {        
+       "nombre":"Campo de Piedra Pomez",
+        "info": "hola",
+        "imgSrc": "hola"
+    },
+
+    {
+        "nombre":"Tadí del Valle",
+        "info": "hola",
+        "imgSrc": "hola"
+
+    }
+
+    ]
+
+
+
+}
